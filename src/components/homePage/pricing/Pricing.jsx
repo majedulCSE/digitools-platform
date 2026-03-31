@@ -14,7 +14,7 @@ const Pricing = () => {
 
         <div className="py-10 grid md:grid-cols-2 lg:grid-cols-3 px-5 gap-10 lg:20 xl:gap-25">
           {/* starter */}
-          <div className=" bg-gray-100 shadow-md text-left rounded-2xl flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300">
+          <div className=" bg-gray-100 shadow-md text-left rounded-2xl flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
             <div className=" pt-12 pb-8 px-8 flex-1 flex flex-col">
               <h2 className="text-3xl font-bold mb-1">Starter</h2>
               <p className="text-black/80 ">Perfect for getting started</p>
@@ -50,7 +50,7 @@ const Pricing = () => {
           </div>
 
           {/* pro */}
-          <div className=" gradient-bg text-white text-left rounded-2xl  relative flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300">
+          <div className=" gradient-bg text-white text-left rounded-2xl  relative flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
             <div
               className="badge absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2  
                 bg-yellow-100 text-yellow-600 px-4 py-3 rounded-full text-[10px] sm:text-sm font-semibold shadow-md"
@@ -101,7 +101,7 @@ const Pricing = () => {
           </div>
 
           {/* Enterprise */}
-          <div className=" bg-gray-100 shadow-md text-left rounded-2xl  flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300">
+          <div className=" bg-gray-100 shadow-md text-left rounded-2xl  flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
             <div className="pt-12 pb-8 px-8 flex-1 flex flex-col">
               <h2 className="text-3xl font-bold mb-1">Enterprise</h2>
               <p className="text-black/80 ">For teams and businesses</p>

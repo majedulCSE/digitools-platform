@@ -16,7 +16,7 @@ const Steps = () => {
 
         <div className="py-10 grid md:grid-cols-2 lg:grid-cols-3 px-5 gap-10 lg:20">
 
-          <div className=" bg-white rounded-3xl shadow-sm p-10 pb-25 hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300">
+          <div className=" bg-white rounded-3xl shadow-sm p-10 pb-25 hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
             <div className="flex items-center justify-end">
               <div className="w-8 h-8 gradient-bg text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 01
@@ -40,7 +40,7 @@ const Steps = () => {
             </p>
           </div>
           
-          <div className=" bg-white rounded-3xl  shadow-sm p-10 pb-25  hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300">
+          <div className=" bg-white rounded-3xl  shadow-sm p-10 pb-25  hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
             <div className="flex items-center justify-end">
               <div className="w-8 h-8 gradient-bg text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 02
@@ -63,7 +63,7 @@ const Steps = () => {
               Browse our catalog and select the tools <br /> that fit your needs.
             </p>
           </div>
-          <div className=" bg-white rounded-3xl  shadow-sm p-10 pb-25 hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 ">
+          <div className=" bg-white rounded-3xl  shadow-sm p-10 pb-25 hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
             <div className="flex items-center justify-end">
               <div className="w-8 h-8 gradient-bg text-white rounded-full flex items-center justify-center text-sm font-semibold">
                 03

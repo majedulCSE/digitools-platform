@@ -22,7 +22,7 @@ const ProductCard = ({ product, carts, setCarts }) => {
   };
 
   return (
-    <div className=" shadow-md text-left rounded-2xl flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300">
+    <div className=" shadow-md text-left rounded-2xl flex-1 flex flex-col hover:shadow-lg hover:shadow-indigo-400/50 transition duration-300 hover:-translate-y-3">
       <div className=" pt-12 pb-8 px-8 flex-1 flex flex-col space-y-4 relative ">
         <div
           className={`badge absolute top-4 right-4 px-4 py-3 rounded-full text-sm font-semibold 
